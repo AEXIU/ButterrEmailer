@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8" />
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <title>Butterr.Design Welcome Email</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+    
+    /* General styles and resets for cross-client styling */
+    body, table, td, a {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    table, td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+    
+    /* Force color schemes support in clients */
+    :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
+    
+    /* Interactive Hover States */
+    .pill-btn:hover {
+      background-color: #acacac !important;
+      color: #0c0606 !important;
+      opacity: 0.9;
+    }
+    .pill-btn-large:hover {
+      background-color: #acacac !important;
+      color: #0c0606 !important;
+      opacity: 0.9;
+    }
+    .social-link:hover img {
+      opacity: 0.7 !important;
+    }
+    
+    /* Force specific dark backgrounds and text colors in system Dark Mode */
+    @media (prefers-color-scheme: dark) {
+      .dark-bg {
+        background-color: #0c0606 !important;
+        background-image: linear-gradient(#0c0606, #0c0606) !important;
+      }
+      .light-text {
+        color: #fcfcfc !important;
+      }
+      .gray-text {
+        color: #acacac !important;
+      }
+      .testimonial-quote {
+        color: #f3f3f3 !important;
+      }
+      .testimonial-author {
+        color: #606060 !important;
+      }
+      .btn-lock {
+        background-color: #fcfcfc !important;
+        background-image: linear-gradient(#fcfcfc, #fcfcfc) !important;
+        color: #0c0606 !important;
+      }
+    }
+    
+    /* Specific overrides for Gmail App inversion engine (using u + .body hack) */
+    u + .body .dark-bg {
+      background-color: #0c0606 !important;
+      background-image: linear-gradient(#0c0606, #0c0606) !important;
+    }
+    u + .body .light-text {
+      color: #fcfcfc !important;
+    }
+    u + .body .gray-text {
+      color: #acacac !important;
+    }
+    u + .body .testimonial-quote {
+      color: #f3f3f3 !important;
+    }
+    u + .body .testimonial-author {
+      color: #606060 !important;
+    }
+    u + .body .btn-lock {
+      background-color: #fcfcfc !important;
+      background-image: linear-gradient(#fcfcfc, #fcfcfc) !important;
+      color: #0c0606 !important;
+    }
+    
+    /* Specific overrides for Outlook/Office365 data attributes */
+    [data-ogsc] .light-text { color: #fcfcfc !important; }
+    [data-ogsc] .gray-text { color: #acacac !important; }
+    [data-ogsc] .testimonial-quote { color: #f3f3f3 !important; }
+    [data-ogsc] .testimonial-author { color: #606060 !important; }
+    [data-ogsc] .btn-lock {
+      background-color: #fcfcfc !important;
+      background-image: linear-gradient(#fcfcfc, #fcfcfc) !important;
+      color: #0c0606 !important;
+    }
+    [data-ogsb] .dark-bg {
+      background-color: #0c0606 !important;
+      background-image: linear-gradient(#0c0606, #0c0606) !important;
+    }
+    
+    /* Responsive Media Queries */
+    @media only screen and (max-width: 600px) {
+      .col-next {
+        display: inline-block !important;
+        width: 48% !important;
+        padding-bottom: 24px !important;
+        box-sizing: border-box;
+      }
+      .col-3 {
+        display: block !important;
+        width: 100% !important;
+        padding-bottom: 32px !important;
+        padding-right: 0 !important;
+        box-sizing: border-box;
+      }
+      .col-spacer {
+        display: none !important;
+      }
+      .footer-left, .footer-center, .footer-right {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+        padding: 10px 0 !important;
+      }
+      .footer-right table {
+        float: none !important;
+        margin: 0 auto !important;
+      }
+    }
+  </style>
+</head>
+<body class="body" style="margin: 0; padding: 0; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606); width: 100% !important; -webkit-font-smoothing: antialiased;">
+  <!-- Outer centering wrapper -->
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="dark-bg" style="background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606); table-layout: fixed;">
+    <tr>
+      <td align="center" style="padding: 0;">
+        <!-- Email main width container -->
+        <table role="presentation" width="100%" max-width="600" cellspacing="0" cellpadding="0" border="0" class="dark-bg" style="width: 100%; max-width: 600px; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606); color: #fcfcfc; text-align: left;">
+          
+          <!-- SECTION 1: HEADER -->
+          <tr>
+            <td align="center" style="background-image: url('https://filebin.net/butterr-welcome-assets-1779700277/stijn-te-strake-g9cwzFk-NwI-unsplash%201.png'); background-repeat: no-repeat; background-size: cover; background-position: center bottom; padding: 24px 24px 80px 24px; text-align: center;">
+              <!-- ButterrLogo Center -->
+              <img src="https://filebin.net/butterr-welcome-assets-1779700277/Vector.png" alt="Butterr.Design Logo" width="100" style="display: block; margin: 0 auto 60px auto; max-width: 100px; border: 0;" />
+              <!-- Welcome title -->
+              <h1 class="light-text" style="margin: 0 0 16px 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 54px; font-weight: 500; color: #fcfcfc !important; letter-spacing: -0.54px; line-height: 1.2;">Welcome Aboard</h1>
+              <p class="light-text" style="margin: 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 500; color: #fcfcfc !important; letter-spacing: -0.2px; line-height: 1.4;">We’re thrilled you chose Butterr.Design</p>
+            </td>
+          </tr>
+          
+          <!-- SECTION 2: TIME TO TRANSFORM -->
+          <tr>
+            <td class="dark-bg" align="center" style="padding: 48px 24px 40px 24px; text-align: center; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">
+              <h2 class="light-text" style="margin: 0 0 12px 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 500; color: #fcfcfc !important; letter-spacing: -0.2px; line-height: 1.3;">Time to Transform.</h2>
+              <p class="gray-text" style="margin: 0 auto; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 500; color: #acacac !important; letter-spacing: -0.16px; line-height: 1.5; max-width: 440px;">
+                Over the next few days, we'll transform <span class="light-text" style="color: #fcfcfc !important;">LE</span> into something that will acutely <span class="light-text" style="color: #fcfcfc !important;">blend</span> across all collaterals
+              </p>
+            </td>
+          </tr>
+          
+          <!-- SECTION 3: WHAT'S NEXT -->
+          <tr>
+            <td class="dark-bg" align="center" style="padding: 0 24px 48px 24px; text-align: center; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">
+              <h2 class="light-text" style="margin: 0 0 32px 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 500; color: #fcfcfc !important; letter-spacing: -0.2px; line-height: 1.3;">What’s Next?</h2>
+              
+              <!-- 4 Columns Grid -->
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <!-- Col 1 -->
+                  <td class="col-next dark-bg" align="center" valign="top" style="width: 25%; padding: 10px 5px; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">
+                    <div style="height: 48px; margin-bottom: 12px; display: table; width: 100%;">
+                      <div style="display: table-cell; vertical-align: middle; text-align: center;">
+                        <img src="https://filebin.net/butterr-welcome-assets-1779700277/Handshake.png" alt="Handshake Icon" width="36" style="display: inline-block; border: 0;" />
+                      </div>
+                    </div>
+                    <p class="gray-text" style="margin: 0 0 16px 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #acacac !important; letter-spacing: -0.12px; line-height: 1.4; min-height: 34px;">
+                      Our first meeting<br>is scheduled.
+                    </p>
+                    <a href="https://cal.com/rohit-kshirsagar-sc6rbj/30-min-project-discovery-call" class="pill-btn btn-lock light-text" style="background: #fcfcfc linear-gradient(#fcfcfc, #fcfcfc); color: #0c0606 !important; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 600; text-decoration: none; padding: 6px 12px; border-radius: 14px; display: inline-block; letter-spacing: -0.08px; white-space: nowrap; transition: background-color 0.2s ease, opacity 0.2s ease;">Lock calendar</a>
+                  </td>
+                  
+                  <!-- Col 2 -->
+                  <td class="col-next dark-bg" align="center" valign="top" style="width: 25%; padding: 10px 5px; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">
+                    <div style="height: 48px; margin-bottom: 12px; display: table; width: 100%;">
+                      <div style="display: table-cell; vertical-align: middle; text-align: center;">
+                        <img src="https://filebin.net/butterr-welcome-assets-1779700277/FilePdf.png" alt="PDF Icon" width="27" style="display: inline-block; border: 0;" />
+                      </div>
+                    </div>
+                    <p class="gray-text" style="margin: 0 0 16px 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #acacac !important; letter-spacing: -0.12px; line-height: 1.4; min-height: 34px;">
+                      Your project plan<br>is ready.
+                    </p>
+                    <a href="https://drive.google.com/drive/folders/11P1lTHCkq5Lhy3YVzfjgZsiNi7GhSP29?usp=share_link" class="pill-btn btn-lock light-text" style="background: #fcfcfc linear-gradient(#fcfcfc, #fcfcfc); color: #0c0606 !important; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 600; text-decoration: none; padding: 6px 12px; border-radius: 14px; display: inline-block; letter-spacing: -0.08px; white-space: nowrap; transition: background-color 0.2s ease, opacity 0.2s ease;">Download PDF</a>
+                  </td>
+                  
+                  <!-- Col 3 -->
+                  <td class="col-next dark-bg" align="center" valign="top" style="width: 25%; padding: 10px 5px; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">
+                    <div style="height: 48px; margin-bottom: 12px; display: table; width: 100%;">
+                      <div style="display: table-cell; vertical-align: middle; text-align: center;">
+                        <img src="https://filebin.net/butterr-welcome-assets-1779700277/FilePlus.png" alt="File Plus Icon" width="27" style="display: inline-block; border: 0;" />
+                      </div>
+                    </div>
+                    <p class="gray-text" style="margin: 0 0 16px 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #acacac !important; letter-spacing: -0.12px; line-height: 1.4; min-height: 34px;">
+                      Your project<br>workspace is ready.
+                    </p>
+                    <a href="https://www.figma.com/design/uHG7eydMAjsdOutp3BGN1I/LIGHTING-ERCONOMICS?node-id=227-534&t=86vTRqgGgA3TYUd5-1" class="pill-btn btn-lock light-text" style="background: #fcfcfc linear-gradient(#fcfcfc, #fcfcfc); color: #0c0606 !important; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 600; text-decoration: none; padding: 6px 12px; border-radius: 14px; display: inline-block; letter-spacing: -0.08px; white-space: nowrap; transition: background-color 0.2s ease, opacity 0.2s ease;">Get live access</a>
+                  </td>
+                  
+                  <!-- Col 4 -->
+                  <td class="col-next dark-bg" align="center" valign="top" style="width: 25%; padding: 10px 5px; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">
+                    <div style="height: 48px; margin-bottom: 12px; display: table; width: 100%;">
+                      <div style="display: table-cell; vertical-align: middle; text-align: center;">
+                        <img src="https://filebin.net/butterr-welcome-assets-1779700277/UsersThree.png" alt="Users Three Icon" width="36" style="display: inline-block; border: 0;" />
+                      </div>
+                    </div>
+                    <p class="gray-text" style="margin: 0 0 16px 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #acacac !important; letter-spacing: -0.12px; line-height: 1.4; min-height: 34px;">
+                      Your team has<br>been allocated.
+                    </p>
+                    <a href="https://www.linkedin.com/company/butterr-design/" class="pill-btn btn-lock light-text" style="background: #fcfcfc linear-gradient(#fcfcfc, #fcfcfc); color: #0c0606 !important; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 600; text-decoration: none; padding: 6px 12px; border-radius: 14px; display: inline-block; letter-spacing: -0.08px; white-space: nowrap; transition: background-color 0.2s ease, opacity 0.2s ease;">Connect with us</a>
+                  </td>
+                </tr>
+              </table>
+              
+            </td>
+          </tr>
+          
+          <!-- SECTION 4: FEATURED QUOTE CARD -->
+          <tr>
+            <td class="dark-bg" align="center" style="padding: 0 24px 48px 24px; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-radius: 12px; overflow: hidden; background-color: #141414; background-image: linear-gradient(rgba(12, 6, 6, 0.65), rgba(12, 6, 6, 0.65)), url('https://filebin.net/butterr-welcome-assets-1779700277/IMG_7461%201.png'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                <tr>
+                  <td align="center" style="padding: 60px 30px; text-align: center;">
+                    <blockquote class="light-text" style="margin: 0 0 24px 0; border: 0; padding: 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 500; color: #fcfcfc !important; letter-spacing: -0.2px; line-height: 1.4; font-style: normal;">
+                      "Design isn't just about pretty pixels.<br>It's about understanding your users so deeply<br>that solutions feel inevitable."
+                    </blockquote>
+                    <a href="https://butterr.design" class="pill-btn-large btn-lock light-text" style="background: #fcfcfc linear-gradient(#fcfcfc, #fcfcfc); color: #0c0606 !important; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; text-decoration: none; padding: 10px 24px; border-radius: 20px; display: inline-block; letter-spacing: -0.16px; white-space: nowrap; transition: background-color 0.2s ease, opacity 0.2s ease;">Visit our Website</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          
+          <!-- SECTION 5: GOOD WORDS ABOUT US (TESTIMONIALS) -->
+          <tr>
+            <td class="dark-bg" align="center" style="padding: 0 24px 60px 24px; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">
+              <h2 class="light-text" style="margin: 0 0 32px 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 500; color: #fcfcfc !important; letter-spacing: -0.2px; line-height: 1.3; text-align: center;">Good Words About Us</h2>
+              
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <!-- Testimonial Col 1 -->
+                  <td class="col-3 dark-bg" valign="top" style="width: 30%; padding-bottom: 24px; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">
+                    <img src="https://filebin.net/butterr-welcome-assets-1779700277/Ellipse%202029.png" alt="bullet" width="12" height="12" style="display: block; margin-bottom: 14px; border: 0;" />
+                    <p class="testimonial-quote" style="margin: 0 0 14px 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #f3f3f3 !important; letter-spacing: -0.12px; line-height: 1.6; text-align: left;">
+                      Incredible team! They deliver exactly what we needed. Their ideas helped our business to explore in more ways we never thought of.
+                    </p>
+                    <p class="testimonial-author" style="margin: 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #606060 !important; letter-spacing: -0.12px; line-height: 1.4; text-align: left;">
+                      Founder,<br>Spiritual-Tech<br>Application
+                    </p>
+                  </td>
+                  
+                  <td class="col-spacer dark-bg" style="width: 5%; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">&nbsp;</td>
+                  
+                  <!-- Testimonial Col 2 -->
+                  <td class="col-3 dark-bg" valign="top" style="width: 30%; padding-bottom: 24px; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">
+                    <img src="https://filebin.net/butterr-welcome-assets-1779700277/Ellipse%202029.png" alt="bullet" width="12" height="12" style="display: block; margin-bottom: 14px; border: 0;" />
+                    <p class="testimonial-quote" style="margin: 0 0 14px 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #f3f3f3 !important; letter-spacing: -0.12px; line-height: 1.6; text-align: left;">
+                      A smooth process from start to finish. Highly recommended team. They delivered beyond expectations and bought us more clarity.
+                    </p>
+                    <p class="testimonial-author" style="margin: 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #606060 !important; letter-spacing: -0.12px; line-height: 1.4; text-align: left;">
+                      CMO,<br>Wealth Management<br>Company
+                    </p>
+                  </td>
+                  
+                  <td class="col-spacer dark-bg" style="width: 5%; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">&nbsp;</td>
+                  
+                  <!-- Testimonial Col 3 -->
+                  <td class="col-3 dark-bg" valign="top" style="width: 30%; padding-bottom: 24px; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">
+                    <img src="https://filebin.net/butterr-welcome-assets-1779700277/Ellipse%202029.png" alt="bullet" width="12" height="12" style="display: block; margin-bottom: 14px; border: 0;" />
+                    <p class="testimonial-quote" style="margin: 0 0 14px 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #f3f3f3 !important; letter-spacing: -0.12px; line-height: 1.6; text-align: left;">
+                      Reliable. We were at bottle neck when only team came in thoughts were Butterr. They delivered the project in lighting speed.
+                    </p>
+                    <p class="testimonial-author" style="margin: 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #606060 !important; letter-spacing: -0.12px; line-height: 1.4; text-align: left;">
+                      Director,<br>Renowned Healthcare<br>Organisation
+                    </p>
+                  </td>
+                </tr>
+              </table>
+              
+            </td>
+          </tr>
+          
+          <!-- SECTION 6: FOOTER SECTION -->
+          <tr>
+            <td class="dark-bg" style="padding: 24px 24px 40px 24px; border-top: 1px solid #1c1616; background-color: #0c0606; background-image: linear-gradient(#0c0606, #0c0606);">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <!-- Left side: contact -->
+                  <td class="footer-left" align="left" valign="middle" style="width: 33.33%;">
+                    <address style="margin: 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #f3f3f3; font-style: normal; letter-spacing: -0.12px; line-height: 1.4;">
+                      <a href="mailto:hello@butterr.design" class="light-text" style="color: #f3f3f3 !important; text-decoration: none;">hello@butterr.design</a>
+                    </address>
+                  </td>
+                  
+                  <!-- Center: logo -->
+                  <td class="footer-center" align="center" valign="middle" style="width: 33.33%;">
+                    <a href="https://butterr.design" style="display: inline-block; text-decoration: none;">
+                      <img src="https://filebin.net/butterr-welcome-assets-1779700277/Vector.png" alt="Butterr.Design logo" width="100" style="display: block; max-width: 100px; border: 0;" />
+                    </a>
+                  </td>
+                  
+                  <!-- Right: social icons -->
+                  <td class="footer-right" align="right" valign="middle" style="width: 33.33%;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="display: inline-block; float: right;">
+                      <tr>
+                        <td style="padding-right: 16px;">
+                          <a href="https://www.linkedin.com/company/butterr-design/" aria-label="LinkedIn" class="social-link" style="display: block; text-decoration: none;">
+                            <img src="https://filebin.net/butterr-welcome-assets-1779700277/LinkedinLogo.png" alt="LinkedIn Logo" width="16" height="16" style="display: block; border: 0; transition: opacity 0.2s ease;" />
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://www.instagram.com/butterr.design?igsh=ZXRsY2ZyNDNncjk2" aria-label="Instagram" class="social-link" style="display: block; text-decoration: none;">
+                            <img src="https://filebin.net/butterr-welcome-assets-1779700277/InstagramLogo.png" alt="Instagram Logo" width="16" height="16" style="display: block; border: 0; transition: opacity 0.2s ease;" />
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
